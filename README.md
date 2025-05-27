@@ -34,7 +34,7 @@ for i in transfer_strat:
 
 print(dict_transfers)
 ```
-#Visualization of the Attack Strategy
+# Visualization of the Attack Strategy
 ![Certainty Attack](strategy_example.jpg)
 
 
