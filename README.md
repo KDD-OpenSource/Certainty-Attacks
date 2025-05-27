@@ -25,11 +25,11 @@ success of each strategy is calculated as sum(label_strategy != real_label)/coun
 image quality of each strategy: I just took the mean value of each distance metric 
 confidence: histogram with confidence of adversaries that did fool the models 
 transferability: the mini code 
-`
+```
 x = pd.read_csv('transferability_from_Resnet18_model_two_nb_strat3.csv')
 transfer_strat = list(x.columns[8:])
 dict_transfers = {}
 for i in transfer_strat:
     dict_transfers[i] = len(x[x[i] != x['real_label']])/len(x)
 
-print(dict_transfers)`
+print(dict_transfers)```
