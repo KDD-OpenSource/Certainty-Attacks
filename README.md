@@ -32,4 +32,9 @@ dict_transfers = {}
 for i in transfer_strat:
     dict_transfers[i] = len(x[x[i] != x['real_label']])/len(x)
 
-print(dict_transfers)```
+print(dict_transfers)
+```
+#Visualization of the Attack Strategy
+![Certainty Attack](strategy_example.jpg)
+
+
